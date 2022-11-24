@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">New</string>
+    <string name="app_name">Voting Application</string>
+    <string name="voting_application">Voting Application</string>
+    <string name="Profile"> Profile </string>
+    <string name="notifications">Notifications</string>
+    <string name="candidates">Candidates</string>
+    <string name="positions">Positions</string>
+    <string name="voting">Voting</string>
+    <string name="VotingResult">Results</string>
+    <string name="Logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

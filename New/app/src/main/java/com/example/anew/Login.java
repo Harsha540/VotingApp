@@ -36,7 +36,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         fAuth = FirebaseAuth.getInstance();
-        mEmail = findViewById(R.id.Email);
+        mEmail = findViewById(R.id.email);
         mpassword = findViewById(R.id.password);
         mLoginBtn = findViewById(R.id.loginBtn);
        mCreateBtn = findViewById(R.id.createtext);
@@ -67,7 +67,7 @@ public class Login extends AppCompatActivity {
                     return;
                 }
 
-                fAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                fAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {

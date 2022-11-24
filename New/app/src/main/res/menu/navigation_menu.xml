@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menuProfile"
+    android:icon="@drawable/profile"
+    android:title="@string/Profile"
+    />
+
+    <item android:id="@+id/menuPositions"
+        android:icon="@drawable/position"
+        android:title="@string/positions"
+        />
+    <item android:id="@+id/menuCandidates"
+        android:icon="@drawable/candidates"
+        android:title="@string/candidates"
+        />
+    <item android:id="@+id/menuVoting"
+        android:icon="@drawable/voting"
+        android:title="@string/voting"
+        />
+    <item android:id="@+id/menuVotingResults"
+        android:icon="@drawable/votingresult"
+        android:title="@string/VotingResult"
+        />
+    <item android:id="@+id/LogoutBtn"
+        android:icon="@drawable/logout"
+        android:title="@string/Logout"
+        />
+</menu>
