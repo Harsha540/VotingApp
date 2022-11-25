@@ -3,13 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    app:startDestination="@id/menuProfile">
+    app:startDestination="@id/homepage">
+
+    <fragment
+        android:id="@+id/homepage"
+        android:name="com.example.anew.HomepageFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_homepage" />
 
     <fragment
         android:id="@+id/menuProfile"
         android:name="com.example.anew.ProfileFragment"
         android:label="@string/Profile"
         tools:layout="@layout/fragment_profile" />
+
     <fragment
         android:id="@+id/menuCandidates"
         android:name="com.example.anew.CandidatesFragment"
@@ -21,13 +28,13 @@
         android:label="Positions"
         tools:layout="@layout/fragment_positions" />
     <fragment
-        android:id="@+id/menuVoting"
-        android:name="com.example.anew.VotingFragment"
-        android:label="Voting"
-        tools:layout="@layout/fragment_voting" />
-    <fragment
         android:id="@+id/menuVotingResults"
         android:name="com.example.anew.ResultsFragment"
         android:label="Voting Results"
         tools:layout="@layout/fragment_results" />
+    <fragment
+        android:id="@+id/menuLogout"
+        android:name="com.example.anew.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
 </navigation>

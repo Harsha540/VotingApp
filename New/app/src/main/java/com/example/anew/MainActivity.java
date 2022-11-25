@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 //        fAuth = FirebaseAuth.getInstance();
 //       LogoutBtn = findViewById(R.id.LogoutBtn);
 //        fstore = FirebaseFirestore.getInstance();
-
+//
 //        LogoutBtn.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
@@ -65,6 +65,9 @@ public class MainActivity extends AppCompatActivity {
 //                Toast.makeText(MainActivity.this, "Logout Successful", Toast.LENGTH_SHORT).show();
 //            }
 //        });
+
+
+
 
 
       }

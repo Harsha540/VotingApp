@@ -21,9 +21,12 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -32,12 +35,15 @@ public class Register extends AppCompatActivity {
     FirebaseFirestore fstore;
     String userID;
     FirebaseAuth fAuth;
+    DatabaseReference databaseReference=  FirebaseDatabase.getInstance().getReferenceFromUrl("https://new-project-b58ac-default-rtdb.firebaseio.com/").child("users");
+
 
 
     public static final String TAG = "TAG";
     EditText mFullname, mEmail, mPassword, mPhone;
     Button mRegisterBtn;
     TextView mLoginBtn;
+
 
 
     @Override
@@ -59,6 +65,8 @@ public class Register extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
             finish();
         }
+
+
 
 
 
@@ -153,7 +161,9 @@ public class Register extends AppCompatActivity {
                                 }
                             });
 
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+
+
+                            startActivity(new Intent(getApplicationContext(), Login.class));
 
 
 

@@ -4,14 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileFragment">
+
+    tools:context=".ProfileFragment"
+
+
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher_round"
+
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="60dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        />
+
+    <Button
+        android:id="@+id/cameraBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Profile"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_gravity="center" />
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="300dp"
+        
+        android:text="Open Camera"/>
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp"
+        android:text="Button" />
+
+
 </FrameLayout>
