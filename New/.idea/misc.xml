@@ -5,18 +5,18 @@
       <map>
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/drawable/ic_menu.xml" value="0.15" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_register.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_splash_screen.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/fragment_candidates.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/fragment_homepage.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/fragment_login.xml" value="0.21041666666666667" />
-        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/fragment_logout.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/fragment_logout.xml" value="0.17" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/fragment_positions.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/fragment_profile.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/fragment_results.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/fragment_voting.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/layout_navigation_header.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/layout_navigation_header.xml" value="0.1" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/menu/navigation_menu.xml" value="0.2234375" />
       </map>
     </option>

@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         navigationView.setItemIconTintList(null);
 
         NavController navController = Navigation.findNavController(this, R.id.navHostFragment);
+//        NavigationUI.setupActionBarWithNavController(this, navController);
         NavigationUI.setupWithNavController(navigationView, navController);
 
 //        mEmail= findViewById(R.id.email);

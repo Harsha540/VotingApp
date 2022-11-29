@@ -33,7 +33,7 @@
         android:label="Voting Results"
         tools:layout="@layout/fragment_results" />
     <fragment
-        android:id="@+id/menuLogout"
+        android:id="@+id/LogoutBtn"
         android:name="com.example.anew.LogoutFragment"
         android:label="Logout"
         tools:layout="@layout/fragment_logout" />
