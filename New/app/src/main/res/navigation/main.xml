@@ -18,15 +18,10 @@
         tools:layout="@layout/fragment_profile" />
 
     <fragment
-        android:id="@+id/menuCandidates"
-        android:name="com.example.anew.CandidatesFragment"
-        android:label="Candidates"
-        tools:layout="@layout/fragment_candidates" />
-    <fragment
-        android:id="@+id/menuPositions"
-        android:name="com.example.anew.PositionsFragment"
-        android:label="Positions"
-        tools:layout="@layout/fragment_positions" />
+        android:id="@+id/menuVoting"
+        android:name="com.example.anew.VotingFragment"
+        android:label="Voting"
+        tools:layout="@layout/fragment_voting" />
     <fragment
         android:id="@+id/menuVotingResults"
         android:name="com.example.anew.ResultsFragment"
