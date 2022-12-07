@@ -44,21 +44,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        DrawerLayout drawerLayout = findViewById(R.id.drawerLayout);
-        findViewById(R.id.imageMenu).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                drawerLayout.openDrawer(GravityCompat.START);
-            }
-        });
-
-        NavigationView navigationView = findViewById(R.id.navigationView);
-
-        navigationView.setItemIconTintList(null);
-
-        NavController navController = Navigation.findNavController(this, R.id.navHostFragment);
-//        NavigationUI.setupActionBarWithNavController(this, navController);
-        NavigationUI.setupWithNavController(navigationView, navController);
 
 
 //        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();

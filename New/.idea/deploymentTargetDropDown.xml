@@ -6,13 +6,13 @@
         <type value="RUNNING_DEVICE_TARGET" />
         <deviceKey>
           <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="dce84e82" />
+            <type value="VIRTUAL_DEVICE_PATH" />
+            <value value="C:\Users\modhu\.android\avd\Resizable_API_33.avd" />
           </Key>
         </deviceKey>
       </Target>
     </runningDeviceTargetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2022-12-06T06:03:03.205128800Z" />
+    <timeTargetWasSelectedWithDropDown value="2022-12-07T08:04:54.655300700Z" />
     <runningDeviceTargetsSelectedWithDialog>
       <Target>
         <type value="RUNNING_DEVICE_TARGET" />
