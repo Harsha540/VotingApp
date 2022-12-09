@@ -8,20 +8,25 @@
         android:id="@+id/nav_profile"
         android:icon="@drawable/ic_baseline_account_circle_24"
         android:title="@string/Profile"/>
-
-    <item
-        android:id="@+id/nav_candidates"
-        android:icon="@drawable/ic_baseline_person_24"
-        android:title="@string/candidates"/>
     <item
         android:id="@+id/nav_positions"
         android:title="@string/positions"
         android:icon="@drawable/position"/>
 
+
+    <item
+        android:id="@+id/nav_candidates"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/candidates"/>
+
     <item
         android:id="@+id/nav_voting"
         android:icon="@drawable/ic_baseline_how_to_vote_24"
         android:title="@string/voting"/>
+    <item
+        android:id="@+id/nav_location"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Location"/>
 
 
 </group>

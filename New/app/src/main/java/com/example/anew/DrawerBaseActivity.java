@@ -28,6 +28,7 @@ public class DrawerBaseActivity extends AppCompatActivity implements NavigationV
 
 
 
+    @SuppressLint("InflateParams")
     @Override
     public void setContentView(View view){
         drawerLayout =(DrawerLayout) getLayoutInflater().inflate(R.layout.activity_drawer_base, null);
@@ -48,12 +49,6 @@ public class DrawerBaseActivity extends AppCompatActivity implements NavigationV
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
     }
-
-
-
-
-
-
 
 
 
@@ -81,6 +76,10 @@ public class DrawerBaseActivity extends AppCompatActivity implements NavigationV
 
             case R.id.nav_voting:
                 startActivity(new Intent(this, VotingActivity.class));
+                break;
+
+            case R.id.nav_location:
+                startActivity(new Intent(this, LocationActivity.class));
                 break;
         }
 

@@ -8,6 +8,7 @@ import com.example.anew.databinding.ActivityCandidatesBinding;
 
 public class CandidatesActivity extends DrawerBaseActivity {
 
+
     ActivityCandidatesBinding activityCandidatesBinding;
 
     @Override
@@ -17,5 +18,7 @@ public class CandidatesActivity extends DrawerBaseActivity {
 
         setContentView(activityCandidatesBinding.getRoot());
         allocateActivityTitle("Candidates");
+
+
     }
 }

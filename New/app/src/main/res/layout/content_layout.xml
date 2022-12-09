@@ -4,11 +4,15 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/appBarLayout"
         app:layout_constraintTop_toTopOf="parent">
+
+
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolBar"
@@ -16,7 +20,10 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@color/teal_700"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:titleTextColor="@color/white"/>
+            app:titleTextColor="@color/white">
+
+
+        </androidx.appcompat.widget.Toolbar>
 
 
     </com.google.android.material.appbar.AppBarLayout>

@@ -18,6 +18,7 @@ import android.preference.PreferenceManager;
 import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -28,6 +29,7 @@ import com.example.anew.databinding.ActivityProfileBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -51,18 +53,7 @@ public class ProfileActivity extends DrawerBaseActivity {
     Button button;
     Uri imageUri;
 
-    //Navigation image retrieval
-//    private CircleImageView navheaderImage;
-//    private TextView navheaderEmail, navheadername;
-//    private NavigationView navigationView;
-//    private DatabaseReference databaseReference;
-//
-//
-//    private FirebaseAuth fAuth;
-//    private FirebaseUser fUser;
-//    private View header;
-
-    //---
+    EditText profileFullname, profileEmail, profileMobile;
 
 
     @Override
@@ -72,6 +63,14 @@ public class ProfileActivity extends DrawerBaseActivity {
         activityProfileBinding = ActivityProfileBinding.inflate(getLayoutInflater());
         setContentView(activityProfileBinding.getRoot());
         allocateActivityTitle("Profile");
+
+         profileFullname = findViewById(R.id.profileUsername);
+         profileEmail = findViewById(R.id.profileEmail);
+         profileMobile = findViewById(R.id.profileMobile);
+
+         showUserData();
+
+
 
         imageview = findViewById(R.id.imageCamera);
         button = findViewById(R.id.buttonCamera);
@@ -98,27 +97,20 @@ public class ProfileActivity extends DrawerBaseActivity {
             }
         });
 
-        //NIR
-
-//
-//        navheaderEmail= navigationView.getHeaderView(0).findViewById(R.id.header_email);
-//        navheadername= navigationView.getHeaderView(0).findViewById(R.id.header_fullname);
-//        navheaderImage= navigationView.getHeaderView(0).findViewById(R.id.header_image);
-//        databaseReference= FirebaseDatabase.getInstance().getReference().child("user").child(FirebaseAuth.getInstance())
 
 
-//        header= navView.getHeaderView(0);
-//
-//        if(fUser!=null){
-//            ImageView imageView= (ImageView) header.findViewById(R.id.header_image);
-//            Picasso.get().load(fUser.getPhotoUrl()).placeholder(getDrawable(R.id.u)).into(imageView);
-//            TextView username= (TextView) header.findViewById(R.id.header_fullname);
-//            username.setText(fUser.getDisplayName());
-//
-//            TextView email= (TextView) header.findViewById(R.id.header_email);
-//            email.setText(fUser.getEmail());
-//        }
+    }
 
+    public  void showUserData(){
+
+        Intent intent = getIntent();
+        String nameUser = intent.getStringExtra("name");
+        String emailUser = intent.getStringExtra("email");
+        String mobileUser = intent.getStringExtra("phone");
+
+        profileFullname.setText(nameUser);
+        profileEmail.setText(emailUser);
+        profileMobile.setText(mobileUser);
 
     }
 

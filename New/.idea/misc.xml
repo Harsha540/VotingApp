@@ -5,13 +5,16 @@
       <map>
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/drawable/ic_menu.xml" value="0.15" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/drawable/user.xml" value="0.2285" />
+        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_candidates.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_dashboard.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_drawer_base.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_drawer_base.xml" value="0.1" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_feedbackand_logout2.xml" value="0.22" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_home.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_home2.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_location.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_login.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_main.xml" value="0.13" />
+        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_onepiece_candidates.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_position.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_positions.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_profile.xml" value="0.22447916666666667" />
@@ -36,6 +39,7 @@
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/fragment_voting.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/layout_navigation_header.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/main_drawer_header.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/recycler_view_positions.xml" value="0.2234375" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/toolbar.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/menu/main_drawer_menu.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/menu/menu_item.xml" value="0.22447916666666667" />
