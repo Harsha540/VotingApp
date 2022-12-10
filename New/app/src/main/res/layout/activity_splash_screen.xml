@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#407E91"
+    android:gravity="center"
     tools:context=".SplashScreen">
 
     <ImageView
         android:id="@+id/appsplash"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:src="@mipmap/ic_launcher_round"
+        android:src="@drawable/logo"
         android:layout_centerInParent="true"/>
     <TextView
         android:id="@+id/appname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login Page"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/black"
         android:layout_below="@+id/appsplash"
         android:textSize="25dp"
         android:textStyle="bold"

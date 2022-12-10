@@ -1,5 +1,6 @@
 package com.example.anew;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Handler;
 
@@ -7,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 
+@SuppressLint("CustomSplashScreen")
 public class SplashScreen extends AppCompatActivity {
 
     @Override
@@ -18,7 +20,8 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 startActivity(new Intent(getApplicationContext(),Login.class));
+                finish();
             }
-        }, 3500);
+        }, 2000);
     }
 }

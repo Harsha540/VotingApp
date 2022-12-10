@@ -3,6 +3,7 @@ package com.example.anew;
 
 import android.content.Intent;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -34,6 +35,7 @@ EditText loginUsername, loginPassword;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
 
         loginButton = findViewById(R.id.loginBtn);
         goToSignup = findViewById(R.id.createtext);

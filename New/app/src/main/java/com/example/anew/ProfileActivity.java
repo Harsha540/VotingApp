@@ -54,6 +54,9 @@ public class ProfileActivity extends DrawerBaseActivity {
     Uri imageUri;
 
     EditText profileFullname, profileEmail, profileMobile;
+    String nameUser, emailUser, mobileUser;
+
+    DatabaseReference reference;
 
 
     @Override
@@ -63,6 +66,8 @@ public class ProfileActivity extends DrawerBaseActivity {
         activityProfileBinding = ActivityProfileBinding.inflate(getLayoutInflater());
         setContentView(activityProfileBinding.getRoot());
         allocateActivityTitle("Profile");
+
+        reference = FirebaseDatabase.getInstance().getReference("users");
 
          profileFullname = findViewById(R.id.profileUsername);
          profileEmail = findViewById(R.id.profileEmail);
@@ -104,9 +109,9 @@ public class ProfileActivity extends DrawerBaseActivity {
     public  void showUserData(){
 
         Intent intent = getIntent();
-        String nameUser = intent.getStringExtra("name");
-        String emailUser = intent.getStringExtra("email");
-        String mobileUser = intent.getStringExtra("phone");
+         nameUser = intent.getStringExtra("name");
+         emailUser = intent.getStringExtra("email");
+         mobileUser = intent.getStringExtra("phone");
 
         profileFullname.setText(nameUser);
         profileEmail.setText(emailUser);
@@ -148,6 +153,45 @@ public class ProfileActivity extends DrawerBaseActivity {
         }
     });
 
+
+    //For Update the user data in profile Activity
+
+//    public void Update_Button(View view) {
+//        if(nameChange() || mobileChange()){
+//
+//            Toast.makeText(this, "Updated Details Successfully", Toast.LENGTH_SHORT).show();
+//
+//        }else{
+//
+//            Toast.makeText(this, "You never made any changes", Toast.LENGTH_SHORT).show();
+//
+//        }
+//    }
+//
+//
+//
+//    private boolean mobileChange() {
+//
+//        if (!mobileUser.equals(profileMobile.getText().toString())) {
+//            reference.child(mobileUser).child("phone").setValue(profileMobile.getText().toString());
+//            mobileUser = profileMobile.getText().toString();
+//            return true;
+//        } else {
+//            return false;
+//        }
+//    }
+//
+//    private boolean nameChange() {
+//
+//        if(!nameUser.equals(profileFullname.getText().toString())){
+//            reference.child(nameUser).child("name").setValue(profileFullname.getText().toString());
+//            nameUser = profileFullname.getText().toString();
+//
+//            return true;
+//        }else{
+//            return false;
+//        }
+//    }
 }
 
 
