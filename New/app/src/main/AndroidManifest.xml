@@ -23,11 +23,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.New"
         tools:targetApi="31">
-
+        <activity
+            android:name=".AddingCandidates"
+            android:exported="false" />
         <activity
             android:name=".Onepiece_Candidates"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
 
         <meta-data
             android:name="come.google.android.geo.API_KEY"
@@ -36,49 +38,50 @@
         <activity
             android:name=".LocationActivity"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
         <activity
             android:name=".HomeActivity"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
         <activity
             android:name=".VotingActivity"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
         <activity
             android:name=".PositionsActivity"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
         <activity
             android:name=".CandidatesActivity"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
         <activity
             android:name=".ProfileActivity"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
         <activity
             android:name=".DrawerBaseActivity"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
         <activity
             android:name=".DashboardActivity"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
         <activity
             android:name=".Register"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"
             android:screenOrientation="locked">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -88,7 +91,6 @@
             android:screenOrientation="locked">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
             </intent-filter>
         </activity>
     </application>
