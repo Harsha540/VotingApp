@@ -1,6 +1,5 @@
 "#VotingApp" 
 
-Where user can vote for a canditate to the postition.
 
 Functions Available:
 
@@ -8,6 +7,6 @@ Functions Available:
 *Login Activity
 *Register Activity
 *Upload details to the Firebase
+*Retrieving User Details
 *
-*
-*Logout Using Fragments
+*Logout Using Fragment
