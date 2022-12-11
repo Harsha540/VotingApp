@@ -4,13 +4,13 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
+
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.firebase.firestore.auth.User;
+
 
 import java.util.ArrayList;
 
@@ -21,13 +21,14 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView name, position;
+        TextView name, pos,desc;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
             name = itemView.findViewById(R.id.Candidatename);
-            position = itemView.findViewById(R.id.positions);
+            pos = itemView.findViewById(R.id.pos);
+
         }
     }
 
@@ -56,7 +57,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
 
         CandidatesRetriveClass candidatesRetriveClass= list.get(position);
         holder.name.setText(candidatesRetriveClass.getName());
-        holder.position.setText(candidatesRetriveClass.getPositions());
+        holder.pos.setText(candidatesRetriveClass.getPosition());
+
 
     }
 

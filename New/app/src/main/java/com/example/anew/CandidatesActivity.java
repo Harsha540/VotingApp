@@ -55,6 +55,7 @@ public class CandidatesActivity extends DrawerBaseActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for(DataSnapshot dataSnapshot : snapshot.getChildren()){
                     CandidatesRetriveClass user = dataSnapshot.getValue(CandidatesRetriveClass.class);
+//                    String n = user.getPosition();
                     list.add(user);
                 }
                 adapter.notifyDataSetChanged();

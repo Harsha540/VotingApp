@@ -2,16 +2,22 @@ package com.example.anew;
 
 public class CandidatesRetriveClass {
 
-    String name, positions;
+    String name, position;
+
+
+
+    public String getPosition() {
+        return position;
+    }
 
 
     public String getName() {
         return name;
     }
 
-    public String getPositions() {
-        return positions;
-    }
+
+
+
 
 
 }
