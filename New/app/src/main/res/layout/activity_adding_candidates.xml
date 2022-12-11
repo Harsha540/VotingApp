@@ -16,68 +16,34 @@
         android:layout_marginBottom="25dp"
         android:textSize="25sp"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Candidate Name"/>
-
-        <EditText
-            android:id="@+id/et_name_head"
+    <EditText
+            android:id="@+id/candidatesUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textCapSentences"
-            android:enabled="false"
-            android:hint="Candidate Name"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Position"/>
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
 
         <EditText
-            android:id="@+id/et_position"
+            android:id="@+id/candidatesPosition"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textCapSentences"
-            android:enabled="false"
-            android:hint="Position"/>
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Team Name"/>
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="Position" />
 
         <EditText
-            android:inputType="number"
-            android:id="@+id/et_Team"
-            android:enabled="false"
+            android:id="@+id/candidatesDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Team"/>
-    </LinearLayout>
+            android:ems="10"
+            android:inputType="text"
+            android:text="Description" />
+
 
     <Button
-        android:id="@+id/btn_submit"
+        android:id="@+id/submit"
         android:background="@color/teal_700"
         android:textColor="@android:color/white"
         android:layout_marginTop="30dp"
@@ -86,3 +52,7 @@
         android:text="submit"/>
 
 </LinearLayout>
+
+
+
+

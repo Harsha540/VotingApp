@@ -1,8 +1,7 @@
 package com.example.anew;
 
 
-import android.os.Parcelable;
-import android.text.ParcelableSpan;
+
 
 public class HelperClass {
     String name, email, password, phone;
