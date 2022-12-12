@@ -28,6 +28,7 @@ public class DrawerBaseActivity extends AppCompatActivity implements NavigationV
 
 
 
+
     @SuppressLint("InflateParams")
     @Override
     public void setContentView(View view){
@@ -74,13 +75,6 @@ public class DrawerBaseActivity extends AppCompatActivity implements NavigationV
                 startActivity(new Intent(this, PositionsActivity.class));
                 break;
 
-            case R.id.nav_voting:
-                startActivity(new Intent(this, VotingActivity.class));
-                break;
-
-            case R.id.nav_location:
-                startActivity(new Intent(this, LocationActivity.class));
-                break;
         }
 
         return false;

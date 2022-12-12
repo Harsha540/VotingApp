@@ -26,25 +26,13 @@
         <activity
             android:name=".AddingCandidates"
             android:exported="false" />
-        <activity
-            android:name=".Onepiece_Candidates"
-            android:exported="false"
-            android:screenOrientation="locked" />
 
         <meta-data
             android:name="come.google.android.geo.API_KEY"
             android:value="AIzaSyBj7uueiN9mv47R7jwBvkhHqKM_Hsn78cM" />
 
         <activity
-            android:name=".LocationActivity"
-            android:exported="false"
-            android:screenOrientation="locked" />
-        <activity
             android:name=".HomeActivity"
-            android:exported="false"
-            android:screenOrientation="locked" />
-        <activity
-            android:name=".VotingActivity"
             android:exported="false"
             android:screenOrientation="locked" />
         <activity

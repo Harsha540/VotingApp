@@ -25,13 +25,15 @@
             android:inputType="textPersonName"
             android:text="Name" />
 
-        <EditText
+        <TextView
             android:id="@+id/candidatesPosition"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:text="Position" />
+            android:text=" King of the Pirates"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
 
         <EditText
             android:id="@+id/candidatesDescription"

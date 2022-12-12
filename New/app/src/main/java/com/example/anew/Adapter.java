@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -13,6 +15,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
 
@@ -22,12 +26,14 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
         TextView name, pos,desc;
+        CheckBox cb;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
             name = itemView.findViewById(R.id.Candidatename);
             pos = itemView.findViewById(R.id.pos);
+
 
         }
     }
@@ -58,6 +64,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         CandidatesRetriveClass candidatesRetriveClass= list.get(position);
         holder.name.setText(candidatesRetriveClass.getName());
         holder.pos.setText(candidatesRetriveClass.getPosition());
+
 
 
     }

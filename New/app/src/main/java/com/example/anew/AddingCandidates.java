@@ -27,7 +27,8 @@ import com.squareup.picasso.Picasso;
 
 public class AddingCandidates extends DrawerBaseActivity {
 
-    EditText candidateName, candidatePosition, candidatesDescription;
+    EditText candidateName,  candidatesDescription;
+    TextView candidatePosition;
     DatabaseReference reference;
     FirebaseDatabase firebaseDatabase;
     Button addingCandidate;

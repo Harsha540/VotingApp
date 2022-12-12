@@ -5,7 +5,7 @@
       <map>
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/drawable/ic_menu.xml" value="0.15" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/drawable/user.xml" value="0.2285" />
-        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_adding_candidates.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_adding_candidates.xml" value="0.5" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_candidates.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_dashboard.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_drawer_base.xml" value="0.22447916666666667" />
@@ -17,7 +17,7 @@
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_main.xml" value="0.13" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_onepiece_candidates.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_position.xml" value="0.21041666666666667" />
-        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_positions.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_positions.xml" value="0.1675925925925926" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_profile.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_profile2.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/modhu/AndroidStudioProjects/New/app/src/main/res/layout/activity_register.xml" value="0.17074275362318841" />
