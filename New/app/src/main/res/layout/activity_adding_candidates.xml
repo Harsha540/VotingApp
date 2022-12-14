@@ -9,12 +9,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Candidates"
-        android:textStyle="bold"
-        android:gravity="center"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="25dp"
-        android:textSize="25sp"/>
+        android:layout_marginBottom="75dp"
+        android:gravity="center"
+        android:text="Add Candidates"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
 
     <EditText
@@ -22,6 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:layout_marginBottom="10dp"
             android:inputType="textPersonName"
             android:text="Name" />
 
@@ -30,6 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:layout_marginBottom="10dp"
             android:inputType="textEmailAddress"
             android:text=" King of the Pirates"
             android:textStyle="bold"
@@ -46,12 +48,21 @@
 
     <Button
         android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/teal_700"
+        android:text="submit"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/Back"
         android:background="@color/teal_700"
         android:textColor="@android:color/white"
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="submit"/>
+        android:text="Back"/>
 
 </LinearLayout>
 

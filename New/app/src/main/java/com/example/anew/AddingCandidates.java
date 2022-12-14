@@ -31,7 +31,7 @@ public class AddingCandidates extends DrawerBaseActivity {
     TextView candidatePosition;
     DatabaseReference reference;
     FirebaseDatabase firebaseDatabase;
-    Button addingCandidate;
+    Button addingCandidate, Back;
 
     ActivityAddingCandidatesBinding activityAddingCandidatesBinding;
 
@@ -49,8 +49,17 @@ public class AddingCandidates extends DrawerBaseActivity {
             candidatesDescription = findViewById(R.id.candidatesDescription);
 
             addingCandidate = findViewById(R.id.submit);
+            Back = findViewById(R.id.Back);
 
             reference = FirebaseDatabase.getInstance().getReference().child("candidates");
+
+            Back.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(getApplicationContext(), CandidatesActivity.class);
+                    startActivity(intent);
+                }
+            });
 
         addingCandidate.setOnClickListener(new View.OnClickListener() {
              @Override

@@ -11,27 +11,26 @@
     <View
         android:id="@+id/view"
         android:layout_width="411dp"
-        android:layout_height="372dp"
+        android:layout_height="300dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="0dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:text="POSITIONS"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textStyle="bold"
         android:textSize="25dp"
-        android:padding="10dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.265">
+        app:layout_constraintTop_toTopOf="@+id/view">
 
     </TextView>
 

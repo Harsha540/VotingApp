@@ -7,19 +7,18 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 
 import com.example.anew.databinding.ActivityDashboardBinding;
 
 public class DashboardActivity extends DrawerBaseActivity {
-
-    FrameLayout frameLayout;
-
 
 
 
@@ -33,12 +32,9 @@ public class DashboardActivity extends DrawerBaseActivity {
         setContentView(activityDashboardBinding.getRoot());
         allocateActivityTitle("Home ");
 
-        frameLayout=findViewById(R.id.Frame_layout);
-
 
 
     }
-
 
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater = getMenuInflater();
@@ -57,6 +53,10 @@ public class DashboardActivity extends DrawerBaseActivity {
         }
         return true;
     }
+
+
+
+
 
 
 }
